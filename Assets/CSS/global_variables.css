@@ -8,7 +8,6 @@
     --font-subtitle: 700;
     --font-regular: 400;
     --font-light: 200;
-    /* Based on the :root font-size 16px */
     --font-xlarge: 2rem;
     --font-large: 1.75rem;
     --font-medium: .875rem;
@@ -16,11 +15,11 @@
     --font-xsmall: .5rem;
  
     /* Spacers */
-    --gutter-x: 1.5rem;
-    --gutter-y: 1.5rem;
+    --space-xs: .25rem;
     --space-sm: .875rem;
     --space-md: 1.5rem;
-    --space-lg: 2.5rem;
+    --space-lg: 1.75rem;
+    --space-xl: 2.5rem;
     
     /* Colors */
     --color-primary: #FF5ACD;
@@ -31,6 +30,7 @@
     --color-grey: #242435;
     --input-box: rgba(40, 40, 40, 0.2);
     --primary-gradient: linear-gradient(45deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+    
 }
 
 /* Dark theme / Light theme implementation depending on settings of the user */
