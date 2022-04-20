@@ -1,4 +1,4 @@
-:root {
+body {
     /* Fonts */
     font-size: 16px;
 
@@ -10,6 +10,7 @@
     --font-light: 200;
     --font-xlarge: 2rem;
     --font-large: 1.75rem;
+    --font-equivalent: 1rem;
     --font-medium: .875rem;
     --font-small: .75rem; 
     --font-xsmall: .5rem;
@@ -20,6 +21,7 @@
     --space-md: 1.5rem;
     --space-lg: 1.75rem;
     --space-xl: 2.5rem;
+    --header-height: 8rem;
     
     /* Colors */
     --color-primary: #FF5ACD;
@@ -35,7 +37,7 @@
 
 /* Dark theme / Light theme implementation depending on settings of the user */
 @media (prefers-color-scheme: dark) {
-    :root {
+    body {
         --color-primary: #FF5ACD;
         --color-secondary: #FBDA61;
         --color-background: #1a1a25;
@@ -49,31 +51,4 @@
 
 /* Responsiveness */
 /* IPAD */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-    :root { font-size: 14px; }
-}
 
-@media only screen 
-and (min-device-width : 1024px) 
-and (max-device-width : 768px) 
-and (orientation : portrait) {
-    :root { font-size: 14px; }
-}
-
-/* IPHONE XR */
-@media only screen
-and (min-device-width : 896px) 
-and (max-device-width : 414px) 
-and (orientation : landscape) {
-    :root { font-size: 12px; }
-}
-
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 896px) 
-and (orientation : portrait) {
-    :root { font-size: 12px; }
-}
