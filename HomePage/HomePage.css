@@ -1,65 +1,5 @@
 @import '../Assets/CSS/global_variables.css';
 
-/* IPAD PORTRAIT */
-@media screen {
-    @media (min-device-width : 415px) 
-    and (max-device-width : 820px) {
-        :root {
-            font-size: 14px;
-        }
-    }
-}
-
-/* IPAD LANDSCAPE */
-@media screen {
-    @media (min-device-width : 896px) 
-    and (max-device-width : 1180px) {
-        :root {
-            font-size: 16px;
-        }
-    }
-}
-
-/* IPHONE XR PORTRAIT */
-@media screen {
-    @media (max-device-width : 414px) {
-        :root {
-            font-size: 12px;
-        }
-    }
-}
-
-/* IPHONE XR LANDSCAPE */
-@media screen {
-    @media (max-device-width : 895px) {
-        body {
-            font-size: 12.5px;
-        }
-    }
-}
-/* Animations */
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translate3d(0, 30%, 0);
-    }
-
-    100% {
-        opacity: 1;
-        transform: none;
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 /* RESET VALUES FOR FULL PAGE */
 * { 
     margin: 0;
@@ -482,8 +422,8 @@ header.header {
     color: var(--color-white);
     font-size: calc(var(--font-medium) * 1.2);
     font-weight: var(--font-title);
-    line-height: 1.2;
     margin: 0;
+    white-space: nowrap;
 }
 
 /* TEXT SECTION */
@@ -531,6 +471,18 @@ header.header {
 
 /* Text blocks */
 .text--block {
+    flex: 0 0 auto;
+    width: 33%;
+
+    max-width: 100%;
+    padding-right: calc(var(--space-md) * .5);
+    padding-left: calc(var(--space-md) * .5);
+    margin-top: var(--space-md);
+}
+
+.text--block__hidden { 
+    display: none;
+
     flex: 0 0 auto;
     width: 33%;
 
@@ -768,4 +720,150 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* IPAD PORTRAIT */
+@media screen {
+    @media (min-device-width : 415px) 
+    and (max-device-width : 920px) {
+        :root {
+            font-size: 14px;
+        }
+
+        .menu-item a {
+            padding: var(--space-sm);
+        }
+
+        .coins--col {
+            width: 32%;
+        }
+
+        .text--block {
+            width: 50%;
+        }
+        
+        .text--block:last-of-type {
+            margin-left: 25%;
+        }
+
+        .subfooter--col__inner {
+            justify-content: start;
+            flex-direction: column;
+        }
+
+        .subfooter--copyright {
+            justify-content: unset;
+            margin-bottom: var(--space-sm);
+            margin-left: var(--space-xs);
+        }
+    }
+}
+
+/* IPAD LANDSCAPE */
+@media screen {
+    @media (min-device-width : 896px) 
+    and (max-device-width : 1180px) {
+        :root {
+            font-size: 16px;
+        }
+    }
+}
+
+/* IPHONE XR PORTRAIT */
+@media screen {
+    @media (max-device-width : 425px) {
+        :root {
+            font-size: 12px;
+        }
+
+        .menu-item a {
+            padding: var(--space-sm);
+        }
+
+        .carousel {
+            justify-content: center;
+            border-radius: 12px;
+        }
+        
+        .carousel:hover {
+            animation: animatedShadow 3s ease infinite;
+        }
+
+        .active--image__main {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        .active--image__grid {
+            display: none;
+        }
+
+        .coins--col {
+            width: 50%;
+        }
+
+        .text--block {
+            width: 100%;
+        }
+        
+        .text--block:last-of-type {
+            margin-left: 0;
+        }
+    }
+}
+
+/* IPHONE XR LANDSCAPE */
+@media screen {
+    @media (max-device-width : 895px) {
+        body {
+            font-size: 12.5px;
+        }
+    }
+}
+
+/* ANIMATIONS */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 30%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animatedShadow {
+	0% {
+        box-shadow: 0 2px 14px 0 var(--color-primary);
+        opacity: .8;
+    }
+    20% {
+        box-shadow: 0 2px 12px 2px var(--color-primary);
+    }
+	40% {
+        box-shadow: 0 4px 10px 4px var(--color-primary);
+    }
+    60% {
+        box-shadow: 0 4px 10px 4px var(--color-primary);
+    }
+    80% {
+        box-shadow: 0 2px 12px 4px var(--color-primary);
+    }
+	100% {
+        box-shadow: 0 2px 14px 2px var(--color-primary);
+        opacity: .8;
+    }
 }
