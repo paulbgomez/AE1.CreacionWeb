@@ -1,0 +1,51 @@
+body {
+    /* Fonts */
+    font-size: 16px;
+
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'Quicksand', sans-serif;
+    --font-title: 800;
+    --font-subtitle: 700;
+    --font-regular: 400;
+    --font-light: 200;
+    --font-xlarge: 2rem;
+    --font-large: 1.75rem;
+    --font-equivalent: 1rem;
+    --font-medium: .875rem;
+    --font-small: .75rem; 
+    --font-xsmall: .5rem;
+ 
+    /* Spacers */
+    --space-xs: .25rem;
+    --space-sm: .875rem;
+    --space-md: 1.5rem;
+    --space-lg: 1.75rem;
+    --space-xl: 2.5rem;
+    --header-height: 8rem;
+    --header-expanded-mobile: 18rem;
+    
+    /* Colors */
+    --color-primary: #FF5ACD;
+    --color-secondary: #FBDA61;
+    --color-background: #fafafa;
+    --color-background-secondary: #e9e9e9;
+    --color-white: #1a1a25;
+    --color-grey: #242435;
+    --input-box: rgba(40, 40, 40, 0.2);
+    --primary-gradient: linear-gradient(45deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+    
+}
+
+/* Dark theme / Light theme implementation depending on settings of the user */
+@media (prefers-color-scheme: dark) {
+    body {
+        --color-primary: #FF5ACD;
+        --color-secondary: #FBDA61;
+        --color-background: #1a1a25;
+        --color-background-secondary: #242435;
+        --color-white: #fafafa;
+        --color-grey: #a2a2a2;
+        --input-box: rgba(255, 255, 255, 0.2);
+        --primary-gradient: linear-gradient(45deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+    }
+}
