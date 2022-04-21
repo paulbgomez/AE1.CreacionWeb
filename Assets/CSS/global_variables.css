@@ -22,6 +22,7 @@ body {
     --space-lg: 1.75rem;
     --space-xl: 2.5rem;
     --header-height: 8rem;
+    --header-expanded-mobile: 18rem;
     
     /* Colors */
     --color-primary: #FF5ACD;

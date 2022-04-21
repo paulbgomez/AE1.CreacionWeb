@@ -141,11 +141,11 @@ header.header {
 }
 
 /*  Connect wallet button */
-.menu_side {
+.menu--side {
     margin-left: var(--space-md);
 }
 
-.menu_side .btn_main {
+.menu--side .btn--wallet {
     background: var(--primary-gradient);
     border-radius: 30px;
     border: none;
@@ -157,6 +157,8 @@ header.header {
     text-align: center;
     text-decoration: none;
 }
+
+.material-icons.side--menu__btn, .material-icons.side--menu__wallet { display: none;}
 
 /* CONTENT SECTION */
 #content {
@@ -726,26 +728,25 @@ footer {
 @media screen {
     @media (min-device-width : 415px) 
     and (max-device-width : 920px) {
-        :root {
-            font-size: 14px;
+        :root { font-size: 14px; }
+
+        /* change header for smaller devices */
+        .header--input {
+            display: none;
         }
 
-        .menu-item a {
-            padding: var(--space-sm);
-        }
+        .menu-item a { padding: var(--space-sm); }
 
-        .coins--col {
-            width: 32%;
-        }
+        /* 3cols per row */
+        .coins--col { width: 32%; }
 
-        .text--block {
-            width: 50%;
-        }
+        /* 2 text blocks per row */
+        .text--block { width: 50%; }
         
-        .text--block:last-of-type {
-            margin-left: 25%;
-        }
+        /* make the last one stay in the center */
+        .text--block:last-of-type { margin-left: 25%; }
 
+        /* group subfooter elements on the left side */
         .subfooter--col__inner {
             justify-content: start;
             flex-direction: column;
@@ -763,30 +764,86 @@ footer {
 @media screen {
     @media (min-device-width : 896px) 
     and (max-device-width : 1180px) {
-        :root {
-            font-size: 16px;
-        }
+        :root { font-size: 16px; }
     }
 }
 
 /* IPHONE XR PORTRAIT */
 @media screen {
     @media (max-device-width : 425px) {
-        :root {
-            font-size: 12px;
+        :root { font-size: 12px; }
+
+        /* No paddings to maximize the use of screen on small devices */
+        .hero--row, .coins--row, .text--row, .footer--row, .subfooter-row { padding: 0; }
+
+        /* change header for smaller devices */
+        header.header {
+            position: relative;
+            overflow: hidden;
+            pointer-events: none;
+            transition: .7s;
+
+            height: 5rem;
         }
 
-        .menu-item a {
-            padding: var(--space-sm);
+        header:hover { height: var(--header-expanded-mobile); }
+        
+        header:hover .material-icons.side--menu__btn {
+            background-color: var(--color-white);
+            color: var(--color-background);
         }
+        
+        .header--input { display: none; }
+
+        .material-icons.logo--icon {
+            font-size: 3rem;
+            color: var(--color-primary);
+        }
+
+        #header-main-menu {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            padding-right: 3.5rem;
+            text-align: left;
+            width: 100%;
+
+            top: 5.5rem;
+            left: 1.25rem;
+            position: absolute;
+            z-index: 0;
+        }
+
+        
+        .menu-item { border-bottom: 1px solid rgba(255, 255, 255, .1); }
+        
+        .menu-item a { padding: var(--space-sm); }
+        
+        .material-icons.side--menu__btn { 
+            display: flex;
+            pointer-events: auto;
+            padding: var(--space-xs);
+        }
+        
+        .btn--wallet { display: none;}
+        
+        .material-icons.side--menu__wallet { 
+            display: flex;
+            background: var(--primary-gradient);
+            border-radius: 4px;
+            color: var(--color-white);
+            padding: var(--space-xs);
+            margin-right: var(--space-md);
+        }
+        
+        /* Add shadow animation for main image */
+        #section-hero { padding-top: 0; }
 
         .carousel {
             justify-content: center;
             border-radius: 12px;
-        }
-        
-        .carousel:hover {
-            animation: animatedShadow 3s ease infinite;
+            animation: animatedShadow 2s linear 1s infinite alternate forwards;
         }
 
         .active--image__main {
@@ -795,30 +852,109 @@ footer {
             margin: 0;
         }
 
-        .active--image__grid {
-            display: none;
+        /* Add animation on hover image */
+        .nft--pic__wrap:hover img {
+            transition: 3s;
+            transform: scale(1.2);
         }
 
-        .coins--col {
-            width: 50%;
-        }
+        /* Hide grid pics */
+        .active--image__grid { display: none; }
 
-        .text--block {
-            width: 100%;
-        }
+        /* make 2 cols of coins */
+        .coins--col { width: 50%; }
+
+        /* make 1 text block max per row */
+        .text--block { width: 100%; }
         
-        .text--block:last-of-type {
-            margin-left: 0;
+        .text--block:last-of-type { margin-left: 0; }
+
+        /* footer */
+        .footer--row {
+            flex-direction: column;
+        }
+
+        .footer--col {
+            max-width: 100%;
+        }
+
+        .newsletter input {
+            min-width: 80%;
         }
     }
 }
 
 /* IPHONE XR LANDSCAPE */
 @media screen {
-    @media (max-device-width : 895px) {
-        body {
-            font-size: 12.5px;
+    @media (max-device-width : 896px) {
+        body { font-size: 12.5px; }
+
+        /* No paddings to maximize the use of screen on small devices */
+        .hero--row, .coins--row, .text--row, .footer--row, .subfooter-row { padding: 0; }
+
+        /* change header for smaller devices */
+        header.header {
+            position: relative;
+            overflow: hidden;
+            pointer-events: none;
+            transition: .7s;
+
+            height: 5rem;
         }
+
+        header:hover { height: var(--header-expanded-mobile); }
+        
+        header:hover .material-icons.side--menu__btn {
+            background-color: var(--color-white);
+            color: var(--color-background);
+        }
+        
+        .header--input { display: none; }
+
+        .material-icons.logo--icon {
+            font-size: 3rem;
+            color: var(--color-primary);
+        }
+
+        #header-main-menu {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            padding-right: 3.5rem;
+            text-align: left;
+            width: 100%;
+
+            top: 5.5rem;
+            left: 1.25rem;
+            position: absolute;
+            z-index: 0;
+        }
+
+        
+        .menu-item { border-bottom: 1px solid rgba(255, 255, 255, .1); }
+        
+        .menu-item a { padding: var(--space-sm); }
+        
+        .material-icons.side--menu__btn { 
+            display: flex;
+            pointer-events: auto;
+            padding: var(--space-xs);
+        }
+        
+        .btn--wallet { display: none;}
+        
+        .material-icons.side--menu__wallet { 
+            display: flex;
+            background: var(--primary-gradient);
+            border-radius: 4px;
+            color: var(--color-white);
+            padding: var(--space-xs);
+            margin-right: var(--space-md);
+        }
+        
+        #section-hero { padding-top: 0; }
+
     }
 }
 
@@ -836,34 +972,13 @@ footer {
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+    0% { opacity: 0; }
 
-    100% {
-        opacity: 1;
-    }
+    100% { opacity: 1; }
 }
 
 @keyframes animatedShadow {
-	0% {
-        box-shadow: 0 2px 14px 0 var(--color-primary);
-        opacity: .8;
-    }
-    20% {
-        box-shadow: 0 2px 12px 2px var(--color-primary);
-    }
-	40% {
-        box-shadow: 0 4px 10px 4px var(--color-primary);
-    }
-    60% {
-        box-shadow: 0 4px 10px 4px var(--color-primary);
-    }
-    80% {
-        box-shadow: 0 2px 12px 4px var(--color-primary);
-    }
-	100% {
-        box-shadow: 0 2px 14px 2px var(--color-primary);
-        opacity: .8;
-    }
+	0% { box-shadow: 0 2px 8px -4px var(--color-primary); }
+	50% { box-shadow: 0 2px 18px 0px var(--color-primary); }
+	100% { box-shadow: 0 2px 8px -4px var(--color-primary); }
 }
