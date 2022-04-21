@@ -26,8 +26,10 @@ body {
 }
 
 /* ICON COLOR */
-.md-light {
-    color: var(--color-white);
+.material-icons.md-light.logo--icon {
+    font-size: 5rem;
+    border-radius: 25%;
+    color: white;
 }
 
 /* HEADER STYLES */
@@ -115,7 +117,7 @@ header.header {
     color: var(--color-white);
     font-weight: var(--font-title);
     padding-right: 0;
-    padding: var(--space-lg) var(--space-md);
+    padding: var(--space-lg) 0 var(--space-lg) var(--space-md);
     text-align: center;
     text-decoration: none;
     outline: none;
@@ -248,16 +250,15 @@ header.header {
 /* Big image */
 .nft--pic__info {
     color: var(--color-white);
-    font-size: var(--font-large);
     padding: var(--space-xl);
     height: 100%;
     width: 100%;
-    /* z-index: 1; */
     position: absolute;
 }
 
 .nft--pic__info span:first-of-type {
     display: block;
+    font-size: var(--font-large);
     font-weight: var(--font-title);
 }
 
@@ -308,7 +309,7 @@ header.header {
 
 .nft--pic__grid--title {
     font-weight: var(--font-title);
-    margin: var(--space-lg);
+    padding: var(--space-lg);
     
     position: absolute;
     display: block;
@@ -731,11 +732,19 @@ footer {
         :root { font-size: 14px; }
 
         /* change header for smaller devices */
-        .header--input {
-            display: none;
-        }
+        .header--input { display: none; }
 
         .menu-item a { padding: var(--space-sm); }
+
+        .nft--pic__info {
+            height: unset;
+            max-width: 100%;
+            padding: var(--space-md);
+        }
+
+        .nft--pic__info span:first-of-type { font-size: calc(var(--font-large) * .8);}
+
+        .nft--pic__grid--title { padding: var(--space-sm); }
 
         /* 3cols per row */
         .coins--col { width: 32%; }
@@ -899,7 +908,7 @@ footer {
             pointer-events: none;
             transition: .7s;
 
-            height: 5rem;
+            height: 6rem;
         }
 
         header:hover { height: var(--header-expanded-mobile); }
@@ -925,7 +934,7 @@ footer {
             text-align: left;
             width: 100%;
 
-            top: 5.5rem;
+            top: 7rem;
             left: 1.25rem;
             position: absolute;
             z-index: 0;
