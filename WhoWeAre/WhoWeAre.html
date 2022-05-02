@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WhoWeAre.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;800&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="header">
+            <div class="header--container" style="background-size: cover;">
+                <div class="header--row">
+                    <dic class="header--col">
+                        <div class="header--col--inner">
+                            <div class="header--col--inner__left">
+                                <div id="logo">
+                                    <span class="material-icons md-light logo--icon">webhook</span>
+                                </div>
+                                <div class="header--input">
+                                    <input type="text" id="quick-search">
+                                </div>
+                            </div>
+                            <div class="header--col--inner__right">
+                                <ul id="header-main-menu">
+                                    <li class="menu-item">
+                                        <a href="../HomePage/HomePage.html">
+                                            Home
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">
+                                            Explore
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="WhoWeAre.html">
+                                            Who we are
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="../AreaDeActuacion/AreaDeActuacion.html">
+                                            Poicy Areas
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="menu--side">
+                                    <span class="material-icons side--menu__wallet">
+                                        wallet
+                                    </span>
+                                    <a href="#" class="btn--wallet">
+                                        <span>Connect Wallet</span>
+                                    </a>
+                                </div>
+                                <span class="material-icons side--menu__btn">
+                                    menu
+                                </span>
+                            </div>
+                        </div>
+                    </dic>
+                </div>
+            </div>
+        </header>
+        <div id="content">
+            <section id="section-hero">
+                <div class="hero--container">
+                    <div class="hero--row">
+                        <div class="hero--row__inner">
+                            <div class="carousel">
+                                <div class="active--image__main">
+                                    <div class="nft--pic">
+                                        <a href="#">
+                                            <span class="nft--pic__info">
+                                                
+                                            </span>
+                                        </a>
+                                        <div class="nft--pic__wrap">
+                                            <img src="../Assets/Images/umbrella.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+                     <section id="section-text">
+                        <div class="text--container">
+                             <div class="text--row">
+                                 <div class="text--col">
+                                     <div class="text--col__center">
+                                         <h2>Who we Are</h2>
+                                              <div class="small--border"></div>
+                                                 </div>
+                                                </div>          
+                        <div class="text--container">
+                            <div class="text--row">
+                                <div class="text--col">
+                                     <div class="text--col__center">
+                                        <h3>"<text class="align center"></text>Whe are a super top secret comunity that tries 
+                                                            to aproach the NFT world to YOU"</h3>
+
+                                                        <br>
+                                                         <hr>
+                                                         <br>
+                                                         <br>
+                                                         <br>
+                                        
+                                
+                                                        <p>While Umbrella is a complex protocol with various modules,
+                                                             its core idea is actually quite simple. This post summarizes how Umbrella 
+                                                             achieves consensus and maintains the ledger.
+                                                             <br>
+                                                             <br>
+
+                                                            Data and transactions are contained in objects called messages.
+                                                            Every message must reference two to eight other messages.
+                                                             Thus the collection of all messages, called the Tangle, is an ever growing DAG,
+                                                              or a directed acyclic graph.
+                                                              <br>
+                                                              <br>
+                                                            
+                                                            Currently, the Chrysalis network is governed by the coordinator, 
+                                                            a centralized node run by the Umrella Foundation. The coordinator states which
+                                                             transactions and data are included into the ledger, i.e. the list of token 
+                                                             balances of all users. To be fully decentralized, we will remove the coordinator 
+                                                             in version 2.0 of the Umbrella protocol. In the Coordicide project, we designed the
+                                                              new protocol which will kill the coordinator.
+                                                            <br>
+                                                            <br>
+                                                            Without the coordinator deciding which transactions to include, 
+                                                            a valid message must have a consistent history without any conflicts.
+                                                             So when conflicts arrive, the Tangle forks into different branches. 
+                                                             The upcoming Umbrella protocol must do two things:
+                                                            <br>
+                                                            <br>
+                                                            Decide which branches will survive.
+                                                            Record this decision for new nodes joining the network later.
+                                                            This allows the Umbrella protocol to maintain a consistent ledger where everyone’s balance is always available.
+                                                    </div>
+                                                </div>               
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                     </div>
+                </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="footer--container">
+            <div class="footer--row">
+                <div class="footer--col">
+                    <div class="footer--col__content">
+                        <h5>Marketplace</h5>
+                        <ul>
+                            <li><a href="">All NTFs</a></li>
+                            <li><a href="">Art</a></li>
+                            <li><a href="">Music</a></li>
+                            <li><a href="">Domain Names</a></li>
+                            <li><a href="">Virtual World</a></li>
+                            <li><a href="">Collectibles</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer--col">
+                    <div class="footer--col__content">
+                        <h5>Resources</h5>
+                        <ul>
+                            <li><a href="">Help Center</a></li>
+                            <li><a href="">Partners</a></li>
+                            <li><a href="">Suggestions</a></li>
+                            <li><a href="">Discord</a></li>
+                            <li><a href="">Docs</a></li>
+                            <li><a href="">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer--col">
+                    <div class="footer--col__content">
+                        <h5>Community</h5>
+                        <ul>
+                            <li><a href="">Community</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Brand Assets</a></li>
+                            <li><a href="">Forum</a></li>
+                            <li><a href="">Mailing List</a></li>
+                            <li><a href="">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer--col">
+                    <div class="footer--col__content">
+                        <div class="email--header">
+                            <h5>Newsletter</h5>
+                            <p>Signup for our newsletter to get the latest news in your inbox.</p>
+                        </div>
+                        <form action="email">
+                            <div class="newsletter">
+                                <input type="text" placeholder="Enter your email">
+                                <a id="subscribe-btn" href="#">
+                                    <i class="subscribe--wrapper">
+                                        <span class="material-icons">arrow_forward</span>
+                                    </i>
+                                </a>
+                            </div>
+                        </form>
+                        <small>Your email is safe with us. We don't spam.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="subfooter--container">
+                <div class="subfooter--row">
+                    <div class="subfooter--col">
+                        <div class="subfooter--col__inner">
+                            <div class="subfooter--copyright">
+                                <span>Copyright<span class="material-icons copyright">copyright</span> 2022</span>
+                            </div>
+                            <div class="subfooter--social">
+                                <div class="subfooter--social__wrapper">
+                                    <a href="#">
+                                        <span class="material-icons md-light">
+                                            share
+                                        </span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="material-icons md-light">
+                                            whatsapp
+                                        </span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="material-icons md-light">
+                                            sports_esports
+                                        </span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="material-icons md-light">
+                                            whatshot
+                                        </span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="material-icons md-light">
+                                            translate
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
