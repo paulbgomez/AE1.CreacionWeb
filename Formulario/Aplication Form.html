@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application <Form></Form></title>
+    <link rel="stylesheet" href="Formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;800&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header style="text-align: center;">
+    <h2> Application Form</h2>
+    </header>
+    <form action="procesarPeticion.jsp" method="post">
+    
+    <main>
+        <Fieldset>
+            <legend> Personal Data:</legend>
+        <label for="name">Name: </label>
+            <input id="name" type="text" name="name" placeholder="Name" autofocus required/> 
+
+        <label for="lastn">Last Name: </label>
+            <input id="lastn" type="text" name="lastn" placeholder="Last Name" required/>
+        <label for= "id">NIF: </label>
+            <input id="id" type="text" name="Nif" placeholder="NIF" required/>
+            <br/>
+            <br/>
+         <label for="birth">Date of birth: </label>
+         <input id="birth" type="date" name="birth" required/> 
+
+         <label for=" Country">Country: </label>
+         <select name="Country">
+            <option value="Spain">Spain</option>
+            <option value="Portugal">Portugal</option>
+            <option value="United Kindom">United Kindom</option>
+        </select>
+        
+        <label for="HA">Home Address: </label>
+        <input id="HA" type="text" name="HA" placeholder="Addres" required/> 
+        <br/>
+        <br/>
+        <label for=" st">State: </label>
+         <select name="st">
+            <option value="madrid">Madrid</option>
+            <option value="cataluña">Cataluña</option>
+            <option value="sevilla">Sevilla</option>
+        </select>
+        <label for="pc">Postal Code: </label>
+        <input id="pc" type="text" name="pn" placeholder="Postal Code" required/> 
+        <label for="pn">Phone Number: </label>
+        <input id="pn" type="tel" name="pn" placeholder="Phone Number" required/> 
+        </Fieldset>
+        <br/>
+        <br/>
+        <fieldset>
+        <legend>Payment Method</legend>
+        <label for="Name">Name: </label>
+        <input id="Name" type="text" name="Name" required/>  
+        <br/>
+        <br/>
+        <label for="cardn">Card Number: </label>
+            <input id="cardn" type="number" name="cardn" required/> 
+        <br/>
+        <br/>
+        <label for="de">Expiration Date: </label>
+            <input id="de" type="datetime" name="de" required/> 
+            <br/>
+        <br/>
+        <label for="cvv">CVV: </label>
+            <input id="cvv" type="number" name="cvv" required/> 
+
+
+        </fieldset>
+        <br/>
+        <br/>
+
+        <FIeldset>
+            <legend>Account</legend>
+            <label for="user">Username</label>
+            <input id="user" type="text" name="user" required/>
+            <br/>
+            <br/>
+            <label for="pass">Password</label>
+            <input id="pass" type="password" name="pass" required/>
+            <br/>
+            <br/>
+            <label for="rpass">Repeat Password</label>
+            <input id="rpass" type="password" name="rpass" required/>
+            <br/>
+            <br/>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required/>
+        </FIeldset>
+
+        <Fieldset>
+            <p>We are not responsible for any economic loss due to the product you apply for.</p> 
+            I have read and accept the terms of use <input type="checkbox" name="terminos" value="Y"/>
+            <br/>
+            <br/>
+            <input type="submit" value="Send"/>
+            <input type="reset" value="Clear" />
+        </Fieldset>
+
+    </main>
+</body>
+</html>
