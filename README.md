@@ -12,6 +12,7 @@ A continuacion se adjuntan fotos del proyecto:
 
 ![image1 desktop](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.55.25.png?raw=true)
 ![image2 Desktop](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.55.55.png?raw=true)
+![Screenshot policyArea](https://user-images.githubusercontent.com/99140158/166216110-05c74cb1-d173-4ad8-b19f-7938eddb053d.png)
 
 `TABLET` 🕹🕹🕹
 
