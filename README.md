@@ -12,7 +12,7 @@ A continuacion se adjuntan fotos del proyecto:
 
 ![image1 desktop](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.55.25.png?raw=true)
 ![image2 Desktop](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.55.55.png?raw=true)
-
+![image10 Desktop] (https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%20policyArea.png)
 `TABLET` 🕹🕹🕹
 
 ![image6 tablet](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.57.17.png?raw=true)
@@ -31,3 +31,4 @@ A continuacion se adjuntan fotos del proyecto:
 ![image4 Hover](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.56.27.png?raw=true)
 ![image5 Hover](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.56.36.png?raw=true)
 ![hover phone](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2015.00.03.png?raw=true)
+
