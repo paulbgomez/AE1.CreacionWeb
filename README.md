@@ -13,6 +13,10 @@ A continuacion se adjuntan fotos del proyecto:
 ![image1 desktop](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.55.25.png?raw=true)
 ![image2 Desktop](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.55.55.png?raw=true)
 ![Screenshot policyArea](https://user-images.githubusercontent.com/99140158/166216110-05c74cb1-d173-4ad8-b19f-7938eddb053d.png)
+![127 0 0 1_5500_AE1 CreacionWeb-main_WhoWeAre_WhoWeAre html(Nest Hub Max)](https://user-images.githubusercontent.com/103762224/166301471-4097178d-5236-485a-a5e9-14dd0c7dff50.png)
+
+
+
 
 `TABLET` 🕹🕹🕹
 
@@ -20,6 +24,10 @@ A continuacion se adjuntan fotos del proyecto:
 ![image7 tabletDetail](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.57.29.png?raw=true)
 ![Screenshot policyArea Tablet](https://user-images.githubusercontent.com/99140158/166216910-2e482e3c-0bcb-4367-991b-df103e4712a4.png)
 ![Screenshot policyArea Tablet2](https://user-images.githubusercontent.com/99140158/166217168-8a08f558-8fea-4c7e-89d9-56c3e49ae2b0.png)
+![127 0 0 1_5500_AE1 CreacionWeb-main_WhoWeAre_WhoWeAre html(Galaxy Fold)](https://user-images.githubusercontent.com/103762224/166301797-e96fe4bd-7fef-41d4-a4e1-480ea0b1969a.png)
+
+
+
 
 `PHONE` 📱📱📱
 
@@ -28,6 +36,8 @@ A continuacion se adjuntan fotos del proyecto:
 ![image8 phoneDetail](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.58.18.png?raw=true)
 ![image9 phoneDetail](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.58.26.png?raw=true)
 ![image](https://user-images.githubusercontent.com/99140158/166217062-1038feb0-447a-421f-a6d1-9f879e65bb6a.png)
+![UMBPHONE](https://user-images.githubusercontent.com/103762224/166300770-302f0239-e39f-4bf2-b469-08335e8941d8.png)
+
 
 
 `HOVER` 🌈🌈🌈
