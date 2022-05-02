@@ -25,6 +25,7 @@ A continuacion se adjuntan fotos del proyecto:
 ![Screenshot policyArea Tablet](https://user-images.githubusercontent.com/99140158/166216910-2e482e3c-0bcb-4367-991b-df103e4712a4.png)
 ![Screenshot policyArea Tablet2](https://user-images.githubusercontent.com/99140158/166217168-8a08f558-8fea-4c7e-89d9-56c3e49ae2b0.png)
 ![127 0 0 1_5500_AE1 CreacionWeb-main_WhoWeAre_WhoWeAre html(Galaxy Fold)](https://user-images.githubusercontent.com/103762224/166301797-e96fe4bd-7fef-41d4-a4e1-480ea0b1969a.png)
+![127 0 0 1_5501_Formulario_Aplication%20Form html(iPad Air)](https://user-images.githubusercontent.com/98544413/166305018-66719dc9-522a-44ae-88a5-df8566c142e4.png)
 
 
 
@@ -37,6 +38,7 @@ A continuacion se adjuntan fotos del proyecto:
 ![image9 phoneDetail](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.58.26.png?raw=true)
 ![image](https://user-images.githubusercontent.com/99140158/166217062-1038feb0-447a-421f-a6d1-9f879e65bb6a.png)
 ![UMBPHONE](https://user-images.githubusercontent.com/103762224/166300770-302f0239-e39f-4bf2-b469-08335e8941d8.png)
+![127 0 0 1_5501_Formulario_Aplication%20Form html(iPhone SE) (1)](https://user-images.githubusercontent.com/98544413/166305048-b9d7da6c-394d-45eb-b92b-d3cc53ab12ee.png)
 
 
 
@@ -46,4 +48,5 @@ A continuacion se adjuntan fotos del proyecto:
 ![image4 Hover](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.56.27.png?raw=true)
 ![image5 Hover](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.56.36.png?raw=true)
 ![hover phone](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2015.00.03.png?raw=true)
-![Screenshot cabecera policy area ](https://user-images.githubusercontent.com/99140158/166217294-b6e4212c-93c8-4ad4-a441-3122382aa876.png)
+![Screenshot cabecera policy area ](https://user-images.githubusercontent.com/99140158/166217294-b6e4212c-93c8-4ad4-a441-3122382aa876.png)![127 0 0 1_5501_Formulario_Aplication%20Form html(Nest Hub Max)](https://user-images.githubusercontent.com/98544413/166305091-d5159c68-d8a0-4cdd-860c-629b72fc99ff.png)
+
