@@ -18,6 +18,7 @@ A continuacion se adjuntan fotos del proyecto:
 
 ![image6 tablet](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.57.17.png?raw=true)
 ![image7 tabletDetail](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.57.29.png?raw=true)
+![Screenshot policyArea Tablet](https://user-images.githubusercontent.com/99140158/166216910-2e482e3c-0bcb-4367-991b-df103e4712a4.png)
 
 `PHONE` 📱📱📱
 
