@@ -36,7 +36,8 @@ A continuacion se adjuntan fotos del proyecto:
 ![phone](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.59.04.png?raw=true)
 ![image8 phoneDetail](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.58.18.png?raw=true)
 ![image9 phoneDetail](https://github.com/paulbgomez/AE1.CreacionWeb/blob/main/Assets/Screenshots/Screenshot%202022-04-21%20at%2014.58.26.png?raw=true)
-![image](https://user-images.githubusercontent.com/99140158/166217062-1038feb0-447a-421f-a6d1-9f879e65bb6a.png)
+![ScreenShot movi](https://user-images.githubusercontent.com/99140158/166413848-34372b42-5b1e-4796-b124-81f960065fde.png)
+![Screenshot movil tumbado](https://user-images.githubusercontent.com/99140158/166413858-5f7d28ff-ae7c-40d2-904a-c3918da107c3.png)
 ![UMBPHONE](https://user-images.githubusercontent.com/103762224/166300770-302f0239-e39f-4bf2-b469-08335e8941d8.png)
 ![127 0 0 1_5501_Formulario_Aplication%20Form html(iPhone SE) (1)](https://user-images.githubusercontent.com/98544413/166305048-b9d7da6c-394d-45eb-b92b-d3cc53ab12ee.png)
 
